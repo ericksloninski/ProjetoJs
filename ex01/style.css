@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+body{
+    background-color: rgb(215, 215, 215);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+h1{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-top: 35px;
+    color: white;
+}
+
+
+.principal{
+    background-color: white;
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 450px;
+    min-height: auto;
+    padding: clamp(35px, 8%, 73px);
+    /*clamp(min, preferencia, max)*/
+
+}
+
+.enter_number{
+    background-color: white;
+    width: 100%;
+    display:block;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+input#fnun {
+    width: 100%;
+    background-color: rgb(219, 218, 218);
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    outline: none;
+    font-size: 1em;
+    padding: 20px 10px 10px 10px;
+    font-weight: 600;
+    color: rgb(152, 151, 151);
+    text-align:left;
+}
+
+select#flista{
+    background-color: rgb(219, 218, 218);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(152, 151, 151);
+
+
+}
+
+.button{
+    display:flex;
+    border:none;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.finalizar{
+    display:flex;
+    border:none;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 0px 10px 20px;
+}
+
+.enter_number span{
+    position: absolute;
+    font-size: 0.7em;
+    font-weight: 700;
+    width: 100%;
+    text-transform: uppercase;
+    color: rgb(152, 151, 151);
+    transition: all 400ms ease;
+    margin: 20px;
+    padding-left: 5px;
+    cursor:text;
+}
+
+.lista_number span{
+    font-size: 0.7em;
+    font-weight: 700;
+    width: 100%;
+    text-transform: uppercase;
+    color: rgb(152, 151, 151);
+    transition: all 200ms ease;
+    margin: 20px;
+    margin-left: 5px;
+}
+
+input#fnun:focus{
+    background-color: whitesmoke;
+    border: 2px solid grey;
+}
+
+div#res{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+footer{
+    padding: 10px;
+    color:white;
+}
+
+.enter_number .span-active {
+    font-size: 0.6em;
+    margin: 8px 10px;
+    width: 100%;
+}
+
